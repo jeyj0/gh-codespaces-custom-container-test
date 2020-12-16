@@ -37,3 +37,4 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
 USER vscode
 
 RUN curl -L https://nixos.org/nix/install | sh
+RUN . /home/vscode/.nix-profile/etc/profile.d/nix.sh
